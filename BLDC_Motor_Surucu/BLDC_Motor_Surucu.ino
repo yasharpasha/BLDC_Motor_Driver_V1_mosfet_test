@@ -9,8 +9,8 @@
 #define PHASE_A A1
 #define PHASE_B A2
 #define PHASE_C A3
-int hiz =1000;
-int pwmDuty = 10;  // PWM duty değeri (maks 255)
+int hiz =200;
+int pwmDuty = 100;  // PWM duty değeri (maks 255)
 
 void setup() {
   // MOSFET pinlerini çıkış olarak ayarla
